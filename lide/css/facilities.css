@@ -1,0 +1,175 @@
+/*fitnessProject*/
+#fitnessProject {
+    background-image: url("../images/banner_fit.jpg");
+    width: 100%;
+    height: auto;
+    padding: 80px 0 50px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.textContent {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.textContent h4 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: "MyriadPro-Bold";
+}
+
+.textContent h5 {
+    font-size: 14px;
+    margin-top: -10px;
+}
+/*facility*/
+#facility{
+    width: 100%;
+    padding: 50px 0 0 0;
+
+
+}
+
+.facility_text{
+    text-align: center;
+}
+.facility_text .h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.facility_text p{
+    line-height: 25px;
+}
+
+#facilityShow{
+    background: #3D3D3D;
+    padding: 50px 0 100px 0;
+    margin-top: 50px;
+}
+
+.facilityName a{
+    height: 50px;
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 35px;
+    overflow: hidden;
+    position: relative;
+    color: #dedede;
+    font-size: 16px;
+    transition: 0.3s linear;
+    text-align: center;
+}
+
+.facilityImgShow ul{
+    display: none;
+}
+.facilityName a i{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:#caa342;
+    position: absolute;
+    top: -2px;
+    transition: 0.3s linear;
+}
+.facilityShow_item:hover .facilityImg{
+    border-bottom: 3px solid #caa342;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    -o-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    -ms-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);}
+
+
+.facilityImgShow{
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.facilityImg{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-bottom: 50px;
+    background: white;
+    border-bottom: 3px solid transparent;
+    transition: .3s linear;
+    -moz-transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
+    -ms-transition: .3s linear;
+    cursor: pointer;
+}
+
+.facilityName_title{
+    color: gray;
+    position: absolute;
+    bottom: 15px;
+    font-size: 15px;
+    left: 42%;
+
+}
+.facilityShow_item{
+    margin-bottom: 50px;
+}
+.containerSmall{
+    width: 95%;
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+.facilityName{
+    text-align: center;
+}
+    .facilityName a{
+        height: 50px;
+        margin: 0 10px;
+       font-size: 14px;
+
+    }
+}
+
+@media (min-width: 768px) {
+
+
+    .textContent h4 {
+        font-size: 40px;
+    }
+
+    .textContent h5 {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
+    #fitnessProject {
+        padding: 120px 0 60px 0;
+    }
+    .project{
+        width: 95%;
+    }
+    #ecological .content{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .project{
+        width: 90%;
+    }
+    .containerSmall{
+        width: 80%;
+        max-width: 1200px;
+
+    }
+}

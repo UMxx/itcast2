@@ -1,0 +1,131 @@
+#prevBanner,.prev{
+    display: none;
+}
+#nextBanner,.next{
+    display: none;
+}
+.banner .bigbox ul li a div{
+    width:1920px;
+    height:688px;
+}
+/*.banner .bigbox .content1{*/
+    /*background: url("../images/1-160G91P32O59.jpg") no-repeat;*/
+/*}*/
+/*.banner .bigbox .content2{*/
+    /*background: url('../images/1-1606201HR1L2.jpg') no-repeat;*/
+/*}*/
+/*.banner .bigbox .content3{*/
+    /*background: url('../images/1-160609143KC62.jpg') no-repeat;*/
+/*}*/
+/*.banner .bigbox .content4{*/
+    /*background: url('../images/1-160F1203I2223.jpg') no-repeat;*/
+/*}*/
+/*.banner .bigbox .content5{*/
+    /*background: url('../images/1-1606091435311V.jpg') no-repeat;*/
+/*}*/
+
+.clipped-box {
+    cursor: pointer;
+    -webkit-transition: top 1.2s linear;
+    transition: top 1.2s linear;
+}
+.clipped-box div {
+    z-index: 9999999;
+    color: #fff;
+    font-size: 1em;
+    padding: 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*background: url("../images/1-160G91P32O59.jpg") no-repeat;*/
+}
+
+.clipped-box, .clipped-box div {
+    width:1920px;
+    height:688px;
+    position: relative;
+}
+
+.clipped-box div {
+    position: absolute;
+    top: auto;
+    left: 0;
+    /*background: url("../images/1-160G91P32O59.jpg") no-repeat;*/
+    -webkit-transition: -webkit-transform 1.4s ease-in, background 0.3s ease-in;
+    transition: transform 1.4s ease-in, background 0.3s ease-in;
+}
+#jdAdSlide #jdAdBtn {
+    display: block;
+}
+.major-list  a{
+    overflow: hidden;
+    position: relative;
+}
+.major-list .mark{
+    width: 270px;
+    height: 220px;
+    /*width: 290px;*/
+    /*height: 245px;*/
+    display: block;
+    position: absolute;
+    background: url(../images/logo1.png) no-repeat;
+    z-index: 10;
+}
+.showcase-con-list a{
+    cursor: zoom-in;
+}
+.tobig{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:-705px;
+    /*left: 750px;*/
+    background-color: rgba(62, 62, 62, 0.4);
+    cursor: zoom-out;
+    z-index: 99;
+}
+.tobigImg{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-left:-233px;
+    margin-top: -350px;
+    opacity: 0;
+    z-index: 999;
+}
+.major-list{
+    position: relative;
+}
+.major-list .major-item1{
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    top: 0px;
+    left: 310px;
+    position: absolute;
+}
+.major-list .major-item2{
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    top: 0;
+    left: 20px;
+    position: absolute;
+}
+.major-list .major-item3{
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    top: 240px;
+    left: 20px;
+    position: absolute;
+}
+.major-list .major-item4{
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    top: 240px;
+    left: 310px;
+    position: absolute;
+}
+

@@ -1,0 +1,343 @@
+/*fitnessProject*/
+#fitnessProject {
+    background-image: url("../images/banner_about.jpg");
+    width: 100%;
+    height: auto;
+    padding: 80px 0 50px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.textContent {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.textContent h4 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: "MyriadPro-Bold";
+}
+
+.textContent h5 {
+    font-size: 14px;
+    margin-top: -10px;
+}
+/*aboutLiDe*/
+.marTop10{
+    margin-top: 10px;
+}
+#aboutLiDe{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.topTitle{
+    padding: 60px 0 40px 0;
+    border-bottom: 1px solid #949494;
+}
+.fourMain{
+
+    text-align: center;
+}
+.fourMain a{
+    display: inline-block;
+}
+.main{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 20px;
+    color:#808080;
+    border: 1px solid #999999;
+    transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    position: relative;
+
+
+}
+.mainText{
+    text-align: center;
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+.shadow{
+    width:120px;
+    height: 120px;
+    transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -otransform: scale(0);
+    transform-origin:right top;
+    -moz-transform-origin:right top;
+    -webkit-transform-origin:right top;
+    -o-transform-origin:right top;
+    -ms-transform-origin:right top;
+    background:#936f32;
+    transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    position: relative;
+
+}
+
+.main .mainTitle{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.main .mainInfo{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.one{
+    border-right: none;
+    border-bottom: none;
+}
+.two{
+    border-left: none;
+    border-bottom: none;
+}
+.three{
+    border-right: none;
+    border-bottom: none;
+}
+.four{
+    border-left: none;
+    border-bottom: none;
+}
+
+.eleco_item{
+    padding:80px 0;
+    border-bottom: 1px solid #949494;
+}
+.eleco_item_img{
+    height: auto;
+   transition: all 0.5s linear ;
+    -webkit-transition: all 0.5s linear ;
+    -moz-transition: all 0.5s linear ;
+    -o-transition: all 0.5s linear ;
+    -ms-transition: all 0.5s linear ;
+}
+
+
+.text_info p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #434343;
+    margin-top: 10px;
+}
+.text_info .learnMore{
+    margin-top:8%;
+    background-image:url("../images/learn01.png") ;
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #936f32;
+    border-top: 1px solid #936f32;
+    border-bottom: 1px solid #936f32;
+    transition: all 0.3s linear ;
+    -webkit-transition: all 0.3s linear ;
+    -moz-transition: all 0.3s linear ;
+    -o-transition: all 0.3s linear ;
+    -ms-transition: all 0.35s linear ;
+}
+
+.learnMore:hover{
+    background:#936f32;
+    color: #ffffff;
+    background-image:url("../images/learn02.png") ;
+    background-position: 100px center;
+    background-repeat: no-repeat;
+}
+
+#two{
+    padding: 400px 0 300PX 0;
+    background-color: #ffffff;
+    background-image: url("../images/team.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #151515;
+    background-size: 100% auto;
+}
+
+#two h4{
+    font-size:45px;
+    margin-bottom: 30px;
+}
+#two h5{
+    font-size: 22px;
+}
+@media (max-width: 767px) {
+    #two{
+        padding: 300px 0 200PX 0;
+    }
+    #aboutLiDe{
+        padding-bottom: 10px;
+
+    }
+
+   .content{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .eleco_item_div{
+        text-align: center;
+
+    }
+    .eleco_item_div>a{
+        display: inline-block;
+    }
+    .text_info{
+        margin-top: 10px;
+    }
+    .text_info h3{
+        font-size: 20px;
+    }
+   .eleco_item_a{
+        display: block;
+        background:#000000;
+        width: 400px;
+        height: 267px;
+        overflow: hidden;
+    }
+    .eleco_item_img{
+        width: 400px;
+        height: auto;
+
+    }
+    .text_info{
+        margin-top: 30px;
+    }
+    .text_info .learnMore{
+        text-indent: -50px;
+    }
+}
+
+@media (min-width: 768px) {
+
+
+    .textContent h4 {
+        font-size: 40px;
+    }
+
+    .textContent h5 {
+        font-size: 24px;
+    }
+
+    .content{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .eleco_item_a{
+        display: block;
+        background:#000000;
+        width: 350px;
+        height: 233px;
+        overflow: hidden;
+    }
+    .eleco_item_img{
+        width: 350px;
+        height: auto;
+
+    }
+    .text_info p{
+        margin-top: 20px;
+    }
+    .text_info .learnMore{
+        margin-top:10%;
+
+    }
+    .text_info h3{
+        font-size: 25px;
+    }
+    .text_info h4{
+        font-size: 20px;
+    }
+    #two h4{
+        font-size:65px;
+    }
+    #two h5{
+        font-size: 26px;
+    }
+
+    .text_info p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    #fitnessProject {
+        padding: 120px 0 60px 0;
+    }
+    .project{
+        width: 95%;
+    }
+    .content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text_info p{
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .eleco_item_a{
+        display: block;
+        background:#000000;
+        width: 400px;
+        height: 267px;
+        overflow: hidden;
+    }
+    .eleco_item_img{
+        width: 400px;
+
+    }
+    .text_info h3{
+        font-size: 30px;
+    }
+    .text_info h4{
+        font-size: 26px;
+    }
+    #two h4{
+        font-size:80px;
+    }
+    #two h5{
+        font-size: 30px;
+    }
+    #two{
+        background-size: auto auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project{
+        width: 90%;
+    }
+    .content{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+}

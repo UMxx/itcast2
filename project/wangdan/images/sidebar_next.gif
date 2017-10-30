@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>404 您访问的页面不存在！</title>
+<style>
+.keTitle{ height: 60px; line-height: 60px; font-size: 28px; font-family: '微软雅黑'; color: #444; text-align: center; background: url(../images/bodyBg1.gif) repeat-x left bottom; font-weight: normal; position: fixed; width: 100%; left: 0; top: 0; z-index: 999; padding: 0px 0px 8px; opacity:0.8; }
+.keBottom{ color: #444; height: 60px; text-align: center;position: fixed; width: 100%; left: 0; bottom: 0; z-index: 999; font: 18px/60px "微软雅黑"; padding: 3px 0px 5px;opacity:0.8;font-size:10px;}
+.keBottom a,.keBottom a:hover{color:#444;}
+body {
+  background-color: #ECECEC;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #3c3c3c;
+}
+.demo p {
+line-height:350px;
+height:350px;
+margin:90px 0 30px;
+overflow:hidden;
+}
+
+.demo p:first-child {
+  text-align: center;
+  font-size: 350px;
+  font-weight: bold;
+  
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.demo p:first-child span {
+  text-shadow: 0px 0px 2px #686868,
+    0px 1px 1px #ddd,
+    0px 2px 1px #d6d6d6,
+    0px 3px 1px #ccc,
+    0px 4px 1px #c5c5c5,
+    0px 5px 1px #c1c1c1,
+    0px 6px 1px #bbb,
+    0px 7px 1px #777,
+    0px 8px 3px rgba(100, 100, 100, 0.4),
+    0px 9px 5px rgba(100, 100, 100, 0.1),
+    0px 10px 7px rgba(100, 100, 100, 0.15),
+    0px 11px 9px rgba(100, 100, 100, 0.2),
+    0px 12px 11px rgba(100, 100, 100, 0.25),
+    0px 13px 15px rgba(100, 100, 100, 0.3);
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.demo p:first-child span:hover {
+  text-shadow: 0px 0px 2px #686868,
+    0px 1px 1px #fff,
+    0px 2px 1px #fff,
+    0px 3px 1px #fff,
+    0px 4px 1px #fff,
+    0px 5px 1px #fff,
+    0px 6px 1px #fff,
+    0px 7px 1px #777,
+    0px 8px 3px #fff,
+    0px 9px 5px #fff,
+    0px 10px 7px #fff,
+    0px 11px 9px #fff,
+    0px 12px 11px #fff,
+    0px 13px 15px #fff;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+</style>
+<script type="text/javascript"> 
+function countDown(secs,surl){ 
+ var jumpTo = document.getElementById('jumpTo');
+ jumpTo.innerHTML=secs; 
+ if(--secs>0){ 
+  setTimeout("countDown("+secs+",'"+surl+"')",1000); 
+ }else{  
+  location.href=surl; } 
+} 
+</script>
+
+</head>
+<body>
+  <div class="demo">
+    <p align="center"><span>4</span><span>0</span><span>4</span></p>
+    <div style="FONT-SIZE: 24px; LINE-HEIGHT: 70px;text-align: center;">啊~哦~ 您要查看的页面不存在或已删除！</div>
+    <div style="MARGIN-BOTTOM: 30px;text-align: center;">请检查您输入的网址是否正确，或者点击链接继续浏览空间</div>
+    <div style="FONT-SIZE: 16px; LINE-HEIGHT: 1.6;text-align: center;">您可以回到
+    <A href="/">网站首页</A>
+    <BR>如若不能解决您的问题，请联系客服提出建议^_^<br><br>
+<span id="jumpTo">5</span>秒 后自动跳转到首页
+<script type="text/javascript">
+countDown(5,'/');
+</script> 
+</div>
+  </div>
+<div class="keBottom">Power by Pincolor</div>
+</body>
+</html>

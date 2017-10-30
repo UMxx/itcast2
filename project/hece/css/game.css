@@ -1,0 +1,211 @@
+#canversbox{
+    top:50%;
+    left:50%;
+    margin-top: -280px;
+    margin-left:-200px;
+    position: fixed;
+    display: none;
+    z-index:999;
+}
+#canvers{
+    width: 560px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    background: url("../images/image259.jpg") no-repeat;
+    z-index:999;
+}
+#weapon{
+    width: 123px;
+    height: 100px;
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    background: url(../images/wp.png) no-repeat;
+}
+/*123*/
+/*100*/
+#player{
+    width: 61px;
+    height: 77px;
+    position: absolute;
+    bottom: 67px;
+    left: 10px;
+    z-index: 2;
+    background: url(../images/pl.png) no-repeat;
+}
+#bigmark{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    z-index:99;
+}
+.bullet{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+.bullets{
+    position: absolute;
+}
+#closegame{
+    position: absolute;
+    top:0px;
+    right:0;
+}
+#targetUp{
+    width: 102px;
+    height: 103px;
+    top: 55px;
+    right: 155px;
+    position: absolute;
+}
+#targetUp i{
+    width: 4px;
+    height: 170px;
+    top: -160px;
+    right: 75px;
+    position: absolute;
+    background: url("../images/image2219.bmp");
+}
+
+#targetUp span{
+    width: 102px;
+    height: 103px;
+    /*width: 95px;*/
+
+    /*top: 55px;*/
+    /*right: 155px;*/
+    position: absolute;
+    background: url("../images/image2218.png") no-repeat;
+    animation: staticup 1s steps(1) infinite;
+}
+#targetDown{
+    /*width: 102px;*/
+    /*height: 109px;*/
+    /*width: 95px;*/
+    /*height: 103px;*/
+    bottom:50px;
+    right: 12px;
+    position: absolute;
+
+}
+#targetDown span{
+    display: block;
+    float: right;
+    width: 95px;
+    height: 109px;
+    animation: statics 1s steps(1) infinite;
+    background: url("../images/sta.png") no-repeat;
+}
+#gift{
+    /*width: 400px;*/
+    /*height: 100px;*/
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 290px;
+    left: 160px;
+    display: none;
+    background: url("../images/quan.png") no-repeat;
+    /*background-size:100px 25px;*/
+
+}
+#showgame{
+    position: absolute;
+    /*bottom: 2%;*/
+    right: 0px;
+    /*margin-bottom: 400px;*/
+    /*margin-right:400px;*/
+    width: 143px;
+    height: 60px;
+    font-size: 19px;
+    color:#fff;
+    background: url("../images/image1196.png") no-repeat;
+}
+@keyframes statics {
+    0%  {background-position:0 0;}
+    30% {background-position:-95px 0;}
+    70% {background-position:-190px 0 ;}
+    100%{background-position:0 0;}
+}
+@keyframes targets {
+    0%  {background-position:-190px 0;}
+    30% {background-position:-95px 0;}
+    70% {background-position:0 0 ;}
+    100%{background-position:-190px 0;}
+}
+
+@keyframes leaves {
+    0%  {background-position:-475px 0;}
+    30% {background-position:-380px 0;}
+    70% {background-position:-285px 0 ;}
+    100%{background-position:-475px 0;}
+}
+/*break*/
+@keyframes staticup {
+    0%  {top: 0px;right: 0px;background: url("../images/image2218.png") no-repeat;}
+    25% {top: -3px;right: 3px;background: url("../images/image2221.png") no-repeat;}
+    50% {top: 0px;right: 0px;background: url("../images/image2218.png") no-repeat;}
+    75% {top: -3px;right: -3px;background: url("../images/image2218.png") no-repeat;}
+    100%{top: 0px;right: 0px;background: url("../images/image2218.png") no-repeat;}
+}
+@keyframes break {
+    0%  {background-position:0px 0;}
+    25% {background-position:-102px 0;}
+    50% {background-position:-204px 0 ;}
+    75% {background-position:-306px 0 ;}
+    100%{background-position:0px 0;}
+}
+@keyframes gogogo {
+    0%  {background-position:0px 0;}
+    14% {background-position:-102px 0;}
+    28% {background-position:-204px 0 ;}
+    42% {background-position:-306px 0 ;}
+    56% {background-position:-306px 0 ;}
+    70% {background-position:-408px 0 ;}
+    84% {background-position:-510px 0 ;}
+    100% {background-position:-612px 0 ;}
+}
+
+@keyframes yessir {
+    0%  {background-position:0px 0;}
+    10% {background-position:-95px 0;}
+    20% {background-position:-190px 0 ;}
+    30% {background-position:-285px 0 ;}
+    40% {background-position:-380px 0 ;}
+    50% {background-position:-475px 0 ;}
+    60% {background-position:-570px 0 ;}
+    70% {background-position:-665px 0 ;}
+    80% {background-position:-760px 0 ;}
+    90% {background-position:-855px 0 ;}
+    100% {background-position:-855px 0 ;}
+}
+@keyframes down {
+    0%  {background-position:0px 0;}
+    20% {background-position:-102px 0;}
+    40% {background-position:-204px 0 ;}
+    60% {background-position:-306px 0 ;}
+    80% {background-position:-408px 0 ;}
+    100% {background-position:-612px 0 ;}
+}
+@keyframes gift {
+     0%  {background-position:0px 0;}
+     20% {background-position:-102px 0;}
+     40% {background-position:-204px 0 ;}
+     60% {background-position:-306px 0 ;}
+     80% {background-position:-408px 0 ;}
+     100% {background-position:-612px 0 ;}
+ }
+/*@keyframes leaves {*/
+    /*0%  {background-position:0 0;}*/
+    /*20% {background-position:-95px 0;}*/
+    /*40% {background-position:-190px 0 ;}*/
+    /*60% {background-position:-285px 0;}*/
+    /*80% {background-position:-380px 0;}*/
+    /*100%{background-position:-475px 0;}*/
+/*}*/

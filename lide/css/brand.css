@@ -1,0 +1,137 @@
+#brandCulture{
+   padding: 40px 0;
+   /* height: 800px;*/
+}
+#brandCulture em{
+    font-style: normal;
+     width: 80%;
+   /* background: red;*/
+    vertical-align: top;
+    display:inline-block;
+}
+
+.brandCulture_img{
+    width: 350px;
+    height: auto;
+}
+
+.brandCulture_introOne p{
+    height: 30px;
+}
+.brandCulture_introOne h3{
+    height: 40px;
+}
+.brandCulture_introOne{
+    text-align: center;
+    margin-top: 20px;
+}
+.brandCulture_introTwo p{
+    margin: 8px 0;
+}
+.brandCulture_introTwo{
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.brandImgs{
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    #brandCulture em{
+        width: 75%;
+    }
+    .brandCulture_introTwo{
+       /* text-align: center;*/
+      /*  background: green;*/
+        width: 90%;
+        margin: 20px  auto 0;
+    }
+
+    .brandImgs{
+        margin-top: 16px;
+        text-align: center;
+    }
+    .brandCulture_intro p{
+        font-size: 12px;
+    }
+   .brandImg01{
+       margin-bottom: 10px;
+   }
+}
+
+@media (min-width: 768px) {
+.brandCulture_intro{
+    width: 100%;
+}
+
+    .brandCulture_introTwo{
+        width: 80%;
+        margin: 20px auto 0 ;
+    }
+    .brandImgs .brandImg01{
+        margin-left: 16%;
+    }
+    .brandImgs .brandImg02{
+        margin-left: 2%;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .brandCulture_introOne{
+        text-align: left;
+        margin-top: 0px;
+    }
+    #brandCulture{
+        padding: 60px 0;
+    }
+    .left_brandTitle{
+        width: 40%;
+        position: fixed;
+        top: 45%;
+
+    }
+
+    .brandCulture_img{
+        width: 350px;
+        height: auto;
+    }
+    .brandCulture_intro{
+        width: 60%;
+        position: relative;
+        left: 40%;
+    }
+    .brandCulture_introOne p{
+        height: 35px;
+    }
+    .brandCulture_introOne h3{
+        height: 50px;
+    }
+    .brandCulture_introTwo{
+        width: 100%;
+
+    }
+
+
+}
+@media (min-width: 1200px) {
+  .max-width{
+     max-width:1500px;
+      margin: 0 auto;
+  }
+    .brandCulture_intro{
+        width: 50%;
+        position: relative;
+        left: 50%;
+    }
+    .brandCulture_img{
+        width: 550px;
+        height: auto;
+    }
+
+    .brandCulture_introTwo{
+        margin-top: 30px;
+    }
+
+}
